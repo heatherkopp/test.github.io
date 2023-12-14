@@ -26,27 +26,28 @@ header {
 }
 
 .header-content{width: 100%;
-                margin: 0 auto;
+                margin: 0;
                 padding: 20px;
                 box-sizing: border-box;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                margin-bottom: 0;
+                position: relative;
           }
 
 
         nav{font-family: Inter, sans-serif;
-              margin-bottom: 0; 
-              margin-left: auto;
+              margin: 0; 
+              position: absolute;
+              top: 0;
+              right: 0;
              }
 
           nav ul {display: flex; 
                   list-style: none; 
                   margin: 0;
-                  align-items: center;
                  }
-          nav ul li {margin-left: 50px
+          nav ul li {margin-left: 20px
               }
           nav ul li:last-child {margin-right: 0;
 }
