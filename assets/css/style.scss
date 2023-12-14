@@ -32,15 +32,11 @@ header {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                position: relative;
           }
 
 
         nav{font-family: Inter, sans-serif;
               margin: 0; 
-              position: absolute;
-              top: 0;
-              right: 0;
              }
 
           nav ul {display: flex; 
