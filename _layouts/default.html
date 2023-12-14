@@ -31,7 +31,13 @@
       <section>
 
         <nav>
-        <ul>
+          <ul>
+            {% for item in site.data.menu %}
+               <li><a> href="{{item.link}}">{{item.title}}</a>  
+               </li>
+            {% endfor %}
+          </ul>
+     <ul>
           <li><a href="https://heatherkopp.github.io/test.github.io/CV">CV</a></li>
           <li><a href="https://heatherkopp.github.io/test.github.io/Research">Research</a></li>
           <li><a href="https://heatherkopp.github.io/test.github.io/Teaching">Teaching</a></li>
