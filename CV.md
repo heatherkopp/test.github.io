@@ -1,4 +1,4 @@
 ---
-permalink: /CV/
+permalink: /CV
 ---
 # CV
