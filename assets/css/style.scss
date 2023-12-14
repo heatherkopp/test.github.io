@@ -13,17 +13,12 @@ header {
   }
 }
 
-.site-title{
-  color: #CC0000
-}
-
 .header{
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 20px 100px;
-  background: green;
 }
 
 .header-content{width=100%;
@@ -36,6 +31,8 @@ header {
                 margin-bottom: 0;
           }
 
+.header-content h1 {color: #CC0000;
+}
 
         nav{font-family: Arial, sans-serif;
               margin-bottom: 0; 
