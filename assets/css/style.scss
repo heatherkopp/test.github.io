@@ -21,3 +21,9 @@ header {
   padding: 20x 100px;
   background: green;
 }
+
+.header-content{display: flex;
+                justify-content: space-between;
+               align-items: center;
+                margin-bottom: 0;
+          }
