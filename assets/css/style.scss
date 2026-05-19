@@ -3,7 +3,7 @@
 @import "{{ site.theme}}";
 header {
   img {
-    border-radius: 0;
+    border-radius: 50%;
   }
   p {
     text-align: center;
@@ -25,52 +25,30 @@ header {
   padding: 20px 10px;
 }
 
-.header-content {
-  width: 100%;
-  margin: 0;
-  padding: 20px;
-  box-sizing: border-box;
+.header-content{width: 100%;
+                margin: 0;
+                padding: 20px;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+          }
 
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  align-items: center;
+
+        nav{font-family: Inter, sans-serif;
+              margin: 0; 
+             }
+
+          nav ul {display: flex; 
+                  list-style: none; 
+                  margin: 0;
+                 }
+          nav ul li {margin-left: 20px
+              }
+          nav ul li:last-child {margin-right: 0;
 }
 
-/* Centered name + image block */
-.site-title {
-  grid-column: 2;
-  text-align: center;
-}
-
-/* Image centered under name */
-.site-title img {
-  display: block;
-  margin: 10px auto 0 auto;
-}
-
-/* NAV styling */
-nav {
-  grid-column: 3;
-  justify-self: end;
-  font-family: Inter, sans-serif;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  margin-left: 20px;
-}
-
-nav ul li:last-child {
-  margin-right: 0;
-}
-
-nav ul li a {
-  text-decoration: none;
-  font-size: 18px;
-}
+          nav ul li a {
+              text-decoration: none;
+              font-size: 18px;
+              }
