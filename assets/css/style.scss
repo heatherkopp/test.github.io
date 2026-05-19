@@ -1,7 +1,6 @@
----
----
 @import "{{ site.theme}}";
 
+/* Logo */
 header img {
   border-radius: 0;
   width: 120px;
@@ -9,21 +8,16 @@ header img {
   object-fit: cover;
 }
 
-header p {
-  text-align: center;
-  margin: 0;
-  width: 100%;
-}
-
-/* Header container */
+/* Header bar */
 .header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 1000;
 }
 
-/* Main header layout */
+/* Layout */
 .header-content {
   width: 100%;
   margin: 0;
@@ -34,15 +28,20 @@ header p {
   align-items: center;
 }
 
-/* Nav floats over content (top-right of page) */
+/* Center name */
+header p {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+}
+
+/* Nav pushed right */
 nav {
-  position: absolute;
-  top: 20px;
-  right: 20px;
+  margin-left: auto;
   font-family: Inter, sans-serif;
 }
 
-/* Nav styling */
+/* Nav list */
 nav ul {
   display: flex;
   list-style: none;
@@ -54,10 +53,6 @@ nav ul li {
   margin-left: 20px;
 }
 
-nav ul li:last-child {
-  margin-right: 0;
-}
-
 nav ul li a {
   text-decoration: none;
   font-size: 18px;
@@ -66,4 +61,9 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #7a0000;
+}
+
+/* Prevent content hiding under fixed header */
+body {
+  padding-top: 160px;
 }
