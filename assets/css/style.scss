@@ -3,7 +3,7 @@
 @import "{{ site.theme}}";
 header {
   img {
-    border-radius: 50%;
+    border-radius: 0;
   }
   p {
     text-align: center;
@@ -12,7 +12,7 @@ header {
     text-align: left;
   }
   a {color: #CC0000;}
-  a:hover {color: #7a0000
+  a:hover {color: #a30000
           }
 
 }
