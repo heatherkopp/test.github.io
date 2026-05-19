@@ -25,30 +25,55 @@ header {
   padding: 20px 10px;
 }
 
-.header-content{width: 100%;
-                margin: 0;
-                padding: 20px;
-                box-sizing: border-box;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-          }
+.header-content {
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
 
+  display: flex;
+  justify-content: flex-end; /* pushes nav to the right */
+  align-items: center;
 
-        nav{font-family: Inter, sans-serif;
-              margin: 0; 
-             }
-
-          nav ul {display: flex; 
-                  list-style: none; 
-                  margin: 0;
-                 }
-          nav ul li {margin-left: 20px
-              }
-          nav ul li:last-child {margin-right: 0;
+  position: relative; /* needed for centered title */
 }
 
-          nav ul li a {
-              text-decoration: none;
-              font-size: 18px;
-              }
+/* Centered name + image block */
+.site-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+/* Image centered under name */
+.site-title img {
+  display: block;
+  margin: 10px auto 0 auto;
+}
+
+/* NAV styling */
+nav {
+  font-family: Inter, sans-serif;
+  margin-left: auto; /* pushes nav to right */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+}
