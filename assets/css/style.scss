@@ -59,12 +59,7 @@ header {
   border-radius: 10px;
 }
 
-.social-links {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.scholar-link {
+.social-link {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -73,11 +68,7 @@ header {
   font-weight: 500;
 }
 
-.scholar-link:hover {
-  color: #a30000;
-}
-
-.scholar-icon {
+.social-icon {
   width: 18px;
   height: 18px;
   object-fit: contain;
