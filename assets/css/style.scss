@@ -82,3 +82,13 @@ header {
   height: 18px;
   object-fit: contain;
 }
+
+.email-link {
+  color: #CC0000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: #a30000;
+}
