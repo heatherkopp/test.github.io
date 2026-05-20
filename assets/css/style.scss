@@ -58,3 +58,26 @@ header {
   max-width: 250px;
   border-radius: 10px;
 }
+
+.social-links {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.scholar-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #CC0000;
+  font-weight: 500;
+}
+
+.scholar-link:hover {
+  color: #a30000;
+}
+
+.scholar-icon {
+  width: 18px;
+  height: 18px;
+}
