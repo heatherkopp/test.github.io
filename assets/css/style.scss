@@ -77,7 +77,10 @@ header {
   color: #a30000;
 }
 
-.scholar-icon {
+.social-icon {
   width: 18px;
   height: 18px;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
 }
