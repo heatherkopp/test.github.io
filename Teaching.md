@@ -10,12 +10,12 @@ My teaching philosophy is motivated by four main goals: helping students think a
 ## Course Instructor 
 #### Graduate
 - __Pro-Seminar in International Relations__ (Texas Tech University, F24, F25, F26)
-- __Independent Study__ (Texas Tech University SUM26)
+- __Independent Study__ (Texas Tech University, SUM26)
 
 #### Undergraduate 
 - __Genocide, Terrorism, and Civil War__ (Texas Tech University, F24, SP26, SP27; University of Missouri, F22) 
 - __International Relations__ (Texas Tech University, SP25, SP26, SP27; University of Missouri, SP24)
-- __Domestic Politics and International Conflict__ (Texas Tech University F26)
+- __Domestic Politics and International Conflict__ (Texas Tech University, F26)
 - __Comparative Political Systems__ (University of Missouri, F23) 
 - __Politics and War__ (University of Missouri, SUM23)
 
