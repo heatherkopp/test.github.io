@@ -8,6 +8,7 @@ permalink: /Contact
 <a href="mailto:hkopp@ttu.edu" class="contact-email">hkopp@ttu.edu</a>
 </div>
 
+<br>
 Department of Political Science
 
 Texas Tech University
