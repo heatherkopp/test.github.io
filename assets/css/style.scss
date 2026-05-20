@@ -64,21 +64,21 @@ header {
   margin-top: 10px;
 }
 
-.social-link {
+.scholar-link {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   text-decoration: none;
   color: #CC0000;
   font-weight: 500;
 }
 
-.social-link:hover {
+.scholar-link:hover {
   color: #a30000;
 }
 
-.social-icon {
+.scholar-icon {
   width: 18px;
   height: 18px;
-  flex-shrink: 0;
+  object-fit: contain;
 }
