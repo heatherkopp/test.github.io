@@ -1,106 +1,59 @@
-
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="{{ site.lang | default: 'en-US' }}">
 
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v="" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    {% include head-custom.html %}
-  </head>
-  
- <!-- <header>
-  <div class="header-wrapper">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <div class="site-title">
-      <h1>
-        <a href="{{ "/" | absolute_url }}">
-          {{ site.title | default: site.github.repository_name }}
-        </a>
-      </h1>
-    </div>
+  {% seo %}
 
-    <nav class="header-nav">
+  <link rel="stylesheet"
+    href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+  {% include head-custom.html %}
+</head>
+
+<body>
+
+  <header class="site-header">
+
+    <!-- NAME -->
+    <h1 class="site-title">
+      <a href="{{ '/' | absolute_url }}">
+        {{ site.title | default: site.github.repository_name }}
+      </a>
+    </h1>
+
+    <!-- NAVIGATION -->
+    <nav class="site-nav">
       <ul>
-        <li><a href="https://heatherkopp.github.io/test.github.io/CV">CV</a></li>
-        <li><a href="https://heatherkopp.github.io/test.github.io/Research">Research</a></li>
-        <li><a href="https://heatherkopp.github.io/test.github.io/Teaching">Teaching</a></li>
-        <li><a href="https://heatherkopp.github.io/test.github.io/Contact">Contact</a></li>
+        <li><a href="{{ '/CV' | relative_url }}">CV</a></li>
+        <li><a href="{{ '/Research' | relative_url }}">Research</a></li>
+        <li><a href="{{ '/Teaching' | relative_url }}">Teaching</a></li>
+        <li><a href="{{ '/Contact' | relative_url }}">Contact</a></li>
       </ul>
     </nav>
 
+  </header>
+
+  <!-- MAIN PAGE CONTENT -->
+  <main>
+
     {% if site.logo %}
-      <div class="header-image">
-        <img src="{{ site.logo | relative_url }}" alt="Logo" />
-      </div>
+      <img src="{{ site.logo | relative_url }}" alt="Logo" class="profile-image">
     {% endif %}
 
-    <p class="site-description">
-      {{ site.description | default: site.github.project_tagline }}
-    </p>
+    <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-    {% if site.github.is_user_page %}
-      <p class="view">
-        <a href="{{ site.github.owner_url }}">View My GitHub Profile</a>
-      </p>
-    {% endif %}
+    {{ content }}
 
-  </div>
-</header> -->
-        <header>
-      
-    <div class="header-content">
-      
-       <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>    
+  </main>
 
-    <nav>
-         <ul>
-          <li><a href="https://heatherkopp.github.io/test.github.io/CV">CV</a></li>
-          <li><a href="https://heatherkopp.github.io/test.github.io/Research">Research</a></li>
-          <li><a href="https://heatherkopp.github.io/test.github.io/Teaching">Teaching</a></li>
-          <li><a href="https://heatherkopp.github.io/test.github.io/Contact">Contact</a></li>
-        </ul>
-        </nav>
-      
-  
-        </div>
-         <body>
-        
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
+  <footer>
+  </footer>
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+  <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
-
-        
-      </header> 
-      <section>
-
-      {{ content }}
-
-      
-
-        
-
-      </section>
-
-
-      <footer>
-        {% if site.github.is_project_page %}
-        
-        {% endif %}
-        
-      </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-  </body>
+</body>
 </html>
