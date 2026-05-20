@@ -6,9 +6,7 @@
 /* HEADER */
 
 header {
-  width: 100%;
   text-align: center;
-  margin-bottom: 30px;
 }
 
 /* TITLE */
@@ -18,8 +16,8 @@ header {
 }
 
 .site-title a {
-  color: #CC0000;
   text-decoration: none;
+  color: #CC0000;
 }
 
 .site-title a:hover {
@@ -32,23 +30,23 @@ header {
   list-style: none;
   padding: 0;
   margin: 0 0 20px 0;
+
   display: flex;
   justify-content: center;
   gap: 25px;
 }
 
-.site-nav ul li {
+.site-nav li {
   margin: 0;
 }
 
-.site-nav ul li a {
+.site-nav a {
   text-decoration: none;
   font-size: 18px;
   color: #CC0000;
-  font-family: Inter, sans-serif;
 }
 
-.site-nav ul li a:hover {
+.site-nav a:hover {
   color: #a30000;
 }
 
@@ -59,10 +57,4 @@ header {
   margin: 20px auto;
   max-width: 250px;
   border-radius: 10px;
-}
-
-/* DESCRIPTION */
-
-header p {
-  text-align: center;
 }
