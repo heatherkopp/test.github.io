@@ -2,10 +2,12 @@
 layout: default
 permalink: /Contact
 ---
-## Contact
 
+## Contact
+<div class="contact-page">
 <a href="mailto:hkopp@ttu.edu" class="email-link">
     hkopp@ttu.edu </a>
+    </div>
 
 Department of Political Science
 
