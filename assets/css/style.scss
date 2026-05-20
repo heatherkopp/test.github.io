@@ -2,30 +2,25 @@
 ---
 @import "{{ site.theme }}";
 
-/* HEADER */
-
-.site-header {
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  margin-bottom: 30px;
-  padding-top: 20px;
 }
 
-/* TITLE */
-
 .site-title {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .site-title a {
-  text-decoration: none;
   color: #CC0000;
+  text-decoration: none;
 }
 
 .site-title a:hover {
   color: #a30000;
 }
-
-/* NAVIGATION */
 
 .site-nav ul {
   display: flex;
@@ -33,6 +28,10 @@
   gap: 25px;
   list-style: none;
   padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.site-nav ul li {
   margin: 0;
 }
 
@@ -47,17 +46,9 @@
   color: #a30000;
 }
 
-/* IMAGE */
-
 .profile-image {
   display: block;
-  margin: 30px auto;
+  margin: 20px auto;
   max-width: 250px;
   border-radius: 10px;
-}
-
-/* DESCRIPTION */
-
-p {
-  text-align: center;
 }
