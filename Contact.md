@@ -4,10 +4,10 @@ permalink: /Contact
 ---
 
 ## Contact
-<div class="contact-page">
-<a href="mailto:hkopp@ttu.edu" class="email-link">
-    hkopp@ttu.edu </a>
-    </div>
+
+<p>
+Email: <a href="mailto:hkopp@ttu.edu" class="contact-email">hkopp@ttu.edu</a>
+</p>
 
 Department of Political Science
 
