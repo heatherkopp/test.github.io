@@ -122,11 +122,11 @@ header .site-description a.email-link:hover {
   color: #40095e;
 }
 
-a.contact-email {
+.contact-page .email-link {
   color: #CC0000 !important;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
-a.contact-email:hover {
+.contact-page .email-link:hover {
   color: #a30000 !important;
 }
