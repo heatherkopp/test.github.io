@@ -92,3 +92,32 @@ header .site-description a.email-link {
 header .site-description a.email-link:hover {
   color: #a30000 !important;
 }
+
+.bio-text .ttu-group {
+  color: #CC0000;
+  text-decoration: none;
+}
+
+.bio-text .ttu-group:hover {
+  color: #a30000;
+}
+
+/* University of Missouri */
+.bio-text .mizzou {
+  color: #F1B82D; 
+  text-decoration: none;
+}
+
+.bio-text .mizzou:hover {
+  color: #c09324;
+}
+
+/* Truman State */
+.bio-text .truman {
+  color: #510C76; 
+  text-decoration: none;
+}
+
+.bio-text .truman:hover {
+  color: #40095e;
+}
