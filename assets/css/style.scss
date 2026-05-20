@@ -1,57 +1,63 @@
 ---
 ---
-@import "{{ site.theme}}";
-header {
-  img {
-    border-radius: 0;
-  }
-  p {
-    text-align: center;
-  }
-  p.view {
-    text-align: left;
-  }
-  a {color: #CC0000;}
-  a:hover {color: #a30000
-          }
+@import "{{ site.theme }}";
 
+/* HEADER */
+
+.site-header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 20px;
 }
 
+/* TITLE */
 
-.header{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px 10px;
+.site-title {
+  margin-bottom: 15px;
 }
 
-.header-content{width: 100%;
-                margin: 0;
-                padding: 20px;
-                box-sizing: border-box;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-          }
-
-
-        nav{font-family: Inter, sans-serif;
-              margin: 0; 
-             }
-
-          nav ul {display: flex; 
-                  list-style: none; 
-                  margin: 0;
-                 }
-          nav ul li {margin-left: 20px
-              }
-          nav ul li:last-child {margin-right: 0;
+.site-title a {
+  text-decoration: none;
+  color: #CC0000;
 }
 
-   nav ul li a {
-              text-decoration: none;
-              font-size: 18px;
-              }
+.site-title a:hover {
+  color: #a30000;
+}
 
+/* NAVIGATION */
 
+.site-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #CC0000;
+  font-family: Inter, sans-serif;
+}
+
+.site-nav ul li a:hover {
+  color: #a30000;
+}
+
+/* IMAGE */
+
+.profile-image {
+  display: block;
+  margin: 30px auto;
+  max-width: 250px;
+  border-radius: 10px;
+}
+
+/* DESCRIPTION */
+
+p {
+  text-align: center;
+}
