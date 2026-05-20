@@ -24,7 +24,6 @@ My teaching philosophy is motivated by four main goals: helping students think a
 - __Categorical Data Analysis: Models for Categorical, Ordinal, and Count Outcomes__ (ICPSR Summer Program in Quantitative Methods, SUM23)
 - __U.S. Foreign Policy__ (University of Missouri, SP22)
 - __International Relations__ (University of Missouri, F21)
-- __Introduction to Political Research__ (University of Missouri, F20, SP21)  
-  - TA and Lab Instructor
+- __Introduction to Political Research__, TA and Lab Instructor (University of Missouri, F20, SP21)  
 - __Politics and War__ (University of Missouri, SP20)
 - __Politics of International Economic Relations__ (University of Missouri, F19)
