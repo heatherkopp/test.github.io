@@ -59,6 +59,7 @@ header {
   border-radius: 10px;
 }
 
+/* SOCIAL LOGOS */
 .social-links {
   text-align: center;
   margin-top: 10px;
@@ -83,6 +84,7 @@ header {
   object-fit: contain;
 }
 
+/* CHANGE COLOR OF EMAIL IN DESCRIPTION */
 header .site-description a.email-link {
   color: #CC0000 !important;
   text-decoration: none;
@@ -93,6 +95,7 @@ header .site-description a.email-link:hover {
   color: #a30000 !important;
 }
 
+/* CHANGE COLOR OF LINKS IN INDEX */
 .bio-text .ttu-group {
   color: #CC0000;
   text-decoration: none;
@@ -122,6 +125,7 @@ header .site-description a.email-link:hover {
   color: #40095e;
 }
 
+/* CHANGE COLOR OF EMAIL ON CONTACT */
 .contact-page .contact-email {
   color: #CC0000;
   text-decoration: none;
@@ -131,6 +135,7 @@ header .site-description a.email-link:hover {
   color: #a30000;
 }
 
+/* CHANGE COLOR OF HERE ON CV */
 .cv-page .cv {  color: #CC0000;
   text-decoration: none;
 }
