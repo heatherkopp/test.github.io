@@ -84,6 +84,13 @@ header {
   object-fit: contain;
 }
 
+.social-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 /* CHANGE COLOR OF EMAIL IN DESCRIPTION */
 header .site-description a.email-link {
   color: #CC0000 !important;
