@@ -1,6 +1,5 @@
 ---
 ---
-
 @import "{{ site.theme }}";
 
 /* HEADER */
@@ -60,16 +59,11 @@ header {
 }
 
 /* SOCIAL LOGOS */
-/* SOCIAL CONTAINER (FIXED) */
 .social-links {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: flex-start;
+  text-align: center;
   margin-top: 10px;
 }
 
-/* INDIVIDUAL LINKS */
 .scholar-link {
   display: inline-flex;
   align-items: center;
@@ -77,27 +71,23 @@ header {
   text-decoration: none;
   color: #CC0000;
   font-weight: 500;
-  transition: color 0.2s ease;
 }
 
 .scholar-link:hover {
   color: #a30000;
-  text-decoration: underline;
 }
 
-/* ICONS */
 .scholar-icon {
   width: 18px;
   height: 18px;
   object-fit: contain;
 }
 
-/* X + BLUESKY ROW */
 .social-row {
   display: flex;
   gap: 12px;
   align-items: center;
-  width: 100%;
+  flex-wrap: wrap;
 }
 
 /* CHANGE COLOR OF EMAIL IN DESCRIPTION */
@@ -157,8 +147,4 @@ header .site-description a.email-link:hover {
 }
 
 .cv-page .cv:hover{  color: #a30000;
-}
-
-.social-links a {
-  width: auto;
 }
