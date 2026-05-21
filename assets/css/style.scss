@@ -60,16 +60,16 @@ header {
 }
 
 /* SOCIAL LOGOS */
-/* SOCIAL CONTAINER */
+/* SOCIAL CONTAINER (FIXED) */
 .social-links {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  align-items: flex-start; /* IMPORTANT: prevents weird centering issues */
+  align-items: flex-start;
   margin-top: 10px;
 }
 
-/* LINK STYLE */
+/* INDIVIDUAL LINKS */
 .scholar-link {
   display: inline-flex;
   align-items: center;
@@ -92,11 +92,12 @@ header {
   object-fit: contain;
 }
 
-/* ONLY X + Bluesky ROW */
+/* X + BLUESKY ROW */
 .social-row {
   display: flex;
   gap: 12px;
   align-items: center;
+  width: 100%;
 }
 
 /* CHANGE COLOR OF EMAIL IN DESCRIPTION */
